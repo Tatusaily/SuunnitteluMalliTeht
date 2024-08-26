@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="un-broke the fresh project">
-      <change afterPath="$PROJECT_DIR$/src/BuildingTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForestTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RoadTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwampTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WaterTile.java" afterDir="false" />
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="started the map and tile classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CityMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WildernessMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WildernessMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +48,6 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,9 +68,7 @@
       <updated>1724239308875</updated>
       <workItem from="1724239310727" duration="2728000" />
       <workItem from="1724242400097" duration="1018000" />
-      <workItem from="1724259088645" duration="107000" />
-      <workItem from="1724666627189" duration="1292000" />
-      <workItem from="1724668691234" duration="2635000" />
+      <workItem from="1724259088645" duration="46000" />
     </task>
     <task id="LOCAL−00001" summary="initial and gitignore">
       <option name="closed" value="true" />
@@ -102,14 +91,7 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1724258087457</updated>
     </task>
-    <task id="LOCAL−00004" summary="un-broke the fresh project">
-      <option name="closed" value="true" />
-      <created>1724259180231</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1724259180232</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,11 +111,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial and gitignore" />
     <MESSAGE value="started the map and tile classes" />
-    <MESSAGE value="un-broke the fresh project" />
-    <option name="LAST_COMMIT_MESSAGE" value="un-broke the fresh project" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <option name="LAST_COMMIT_MESSAGE" value="started the map and tile classes" />
   </component>
 </project>
