@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="started the map and tile classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WildernessMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WildernessMap.java" afterDir="false" />
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="T1">
+      <change afterPath="$PROJECT_DIR$/Teht1-FactoryMethod/Teht1-FactoryMethod.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -39,6 +42,8 @@
     "Application.Game.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "T1-FactoryMethod",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,7 +96,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1724258087457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="T1">
+      <option name="closed" value="true" />
+      <created>1724840464760</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1724840464760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial and gitignore" />
     <MESSAGE value="started the map and tile classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="started the map and tile classes" />
+    <MESSAGE value="T1" />
+    <option name="LAST_COMMIT_MESSAGE" value="T1" />
   </component>
 </project>
