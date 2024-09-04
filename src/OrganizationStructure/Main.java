@@ -45,9 +45,8 @@ public class Main {
             randomDepartment.addChild(employees.get(i));
         }
 
-
         // Print the organization structure
-        Organization.printData();
+        Organization.printData(0);
     }
 
     public static ArrayList<String> csvToList(String csvFile) {
