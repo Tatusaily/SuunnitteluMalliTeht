@@ -4,10 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="started the map and tile classes">
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="T1">
+      <change afterPath="$PROJECT_DIR$/src/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ButtonA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ButtonB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Checkbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheckboxA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheckboxB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TextFieldA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TextFieldB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UIFactoryA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UIFactoryB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WildernessMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WildernessMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teht1-FactoryMethod/Teht1-FactoryMethod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildingTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CityMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForestTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoadTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwampTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaterTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WildernessMap.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +45,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="T1-FactoryMethod" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tatusaily&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tatusaily/SuunnitteluMalliTeht.git&quot;,
+    &quot;accountId&quot;: &quot;455ed795-7bd6-491d-ad8e-716654315a59&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -37,8 +76,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Game.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "T2-AbstractFactory",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,12 +93,24 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
-      </set>
-    </attachedChunks>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SuunnitteluMallit_Teht" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,7 +145,21 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1724258087457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="T1">
+      <option name="closed" value="true" />
+      <created>1724840464760</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1724840464760</updated>
+    </task>
+    <task id="LOCAL−00005" summary="T1">
+      <option name="closed" value="true" />
+      <created>1724840543394</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1724840543394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial and gitignore" />
     <MESSAGE value="started the map and tile classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="started the map and tile classes" />
+    <MESSAGE value="T1" />
+    <option name="LAST_COMMIT_MESSAGE" value="T1" />
   </component>
 </project>
