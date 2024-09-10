@@ -13,6 +13,7 @@
         <module>Tilebase</module>
         <module>OtherSubproject</module>
         <module>Observer</module>
+        <module>Singleton</module>
     </modules>
 
     <properties>
