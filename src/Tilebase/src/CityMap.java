@@ -1,9 +1,12 @@
+package Tilebase.src;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CityMap extends Map{
+public class CityMap extends Map {
     private final List<String> tileTypes = new ArrayList<>(Arrays.asList("Road", "Forest", "Building"));
+
     @Override
     public Tile createTile() {
         String randomTileType = getRandomTileType();

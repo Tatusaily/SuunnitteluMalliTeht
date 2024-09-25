@@ -1,3 +1,5 @@
+package Tilebase.src;
+
 import java.util.Scanner;
 
 public class Game {
@@ -13,8 +15,7 @@ public class Game {
             map = new CityMap();
         } else if (selection == 2) {
             map = new WildernessMap();
-        }
-        else {
+        } else {
             System.out.println("Invalid selection");
             return;
         }

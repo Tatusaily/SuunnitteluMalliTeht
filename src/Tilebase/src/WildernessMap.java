@@ -1,7 +1,9 @@
+package Tilebase.src;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class WildernessMap extends Map{
+public class WildernessMap extends Map {
     private final ArrayList<String> tileTypes = new ArrayList<>(Arrays.asList("Swamp", "Water", "Forest"));
 
     @Override

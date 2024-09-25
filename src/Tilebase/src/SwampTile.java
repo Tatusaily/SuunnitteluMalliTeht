@@ -1,13 +1,16 @@
-public class WaterTile implements Tile{
-    private final char mapChar = 'W';
-    private final String type = "Water";
+package Tilebase.src;
+
+public class SwampTile implements Tile {
+    private final char mapChar = 'S';
+    private final String type = "Swamp";
+
     @Override
     public Character getCharacter() {
         return mapChar;
     }
+
     @Override
     public String getType() {
         return type;
     }
-
 }
