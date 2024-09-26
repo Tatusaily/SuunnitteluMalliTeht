@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="finalized">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -74,7 +73,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "T2-AbstractFactory",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/SuunnitteluMalliTeht/src/Singleton",
     "node.js.detected.package.eslint": "true",
