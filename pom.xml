@@ -15,6 +15,7 @@
         <module>Observer</module>
         <module>Singleton</module>
         <module>Template</module>
+        <module>Decorator</module>
     </modules>
 
     <properties>
