@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="finalized">
-      <change afterPath="$PROJECT_DIR$/src/Decorator/BasicPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/EncryptedPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/FilePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/pom.xml" afterDir="false" />
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="decoratorPrinter">
+      <change afterPath="$PROJECT_DIR$/src/State/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/ExpertState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/IntermediateState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/MasterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/NoviceState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -74,12 +77,13 @@
     "Application.Main.executor": "Run",
     "Application.Observer.Main.executor": "Run",
     "Application.Singleton.Main.executor": "Run",
+    "Application.State.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/SuunnitteluMalliTeht/src/Decorator",
+    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/SuunnitteluMalliTeht/src/State",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +97,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\SuunnitteluMalliTeht\src\State" />
       <recent name="C:\Users\Administrator\IdeaProjects\SuunnitteluMalliTeht\src\Decorator" />
       <recent name="C:\Users\Administrator\IdeaProjects\SuunnitteluMalliTeht\src\Singleton" />
     </key>
@@ -103,7 +108,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decorator.Main">
+  <component name="RunManager" selected="Application.State.Main">
     <configuration name="Decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decorator.Main" />
       <module name="SuunnitteluMallit_Teht" />
@@ -150,8 +155,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="State.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="State.Main" />
+      <module name="SuunnitteluMallit_Teht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="State.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.State.Main" />
         <item itemvalue="Application.Decorator.Main" />
         <item itemvalue="Application.Singleton.Main" />
         <item itemvalue="Application.Observer.Main" />
@@ -220,7 +239,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1725973149630</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="decoratorPrinter">
+      <option name="closed" value="true" />
+      <created>1727438361095</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1727438361095</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +269,7 @@
     <MESSAGE value="T1" />
     <MESSAGE value="Organization into subprojects with Maven =)" />
     <MESSAGE value="finalized" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalized" />
+    <MESSAGE value="decoratorPrinter" />
+    <option name="LAST_COMMIT_MESSAGE" value="decoratorPrinter" />
   </component>
 </project>
