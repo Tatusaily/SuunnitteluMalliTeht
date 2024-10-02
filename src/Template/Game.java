@@ -2,6 +2,8 @@ package Template;
 
 public abstract class Game {
 
+    protected int numberOfPlayers;
+
     public final void play(int numberOfPlayers) {
         // a template method specifying a generic game
         initializeGame(numberOfPlayers);
