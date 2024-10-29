@@ -6,17 +6,20 @@ import java.util.List;
 public class Controller {
     private Model model;
     private Gui gui;
-    private List<IMemento> history; // Memento history
+    private List<IMemento> undoHistory; // Memento history
+    private List<IMemento> redoHistory; // Memento redo history
 
     public Controller(Gui gui) {
         this.model = new Model();
         this.gui = gui;
-        this.history = new ArrayList<>();
+        this.undoHistory = new ArrayList<>();
+        this.redoHistory = new ArrayList<>();
     }
 
     public void setOption(int optionNumber, int choice) {
         saveToHistory();
         model.setOption(optionNumber, choice);
+        redoHistory.clear(); // Tyhjennetään historia kun tehdään uusi "nykyhetken" muutos.
     }
 
     public int getOption(int optionNumber) {
@@ -26,6 +29,7 @@ public class Controller {
     public void setIsSelected(boolean isSelected) {
         saveToHistory();
         model.setIsSelected(isSelected);
+        redoHistory.clear(); // Tyhjennetään historia kun tehdään uusi "nykyhetken" muutos.
     }
 
     public boolean getIsSelected() {
@@ -33,16 +37,34 @@ public class Controller {
     }
 
     public void undo() {
-        if (!history.isEmpty()) {
+        if (!undoHistory.isEmpty()) {
             System.out.println("Memento found in history");
-            IMemento previousState = history.remove(history.size() - 1);
+            saveToRedoHistory();
+            IMemento previousState = undoHistory.remove(undoHistory.size() - 1);
             model.restoreState(previousState);
+            //undoHistory.add(model.createMemento()); // Save current state to redo history
+            gui.updateGui();
+        }
+    }
+
+    public void redo() {
+        if (!redoHistory.isEmpty()) {
+            System.out.println("Redo operation");
+            saveToHistory();
+            IMemento nextState = redoHistory.remove(redoHistory.size() - 1);
+            //redoHistory.add(model.createMemento()); // Save current state to undo history
+            model.restoreState(nextState);
             gui.updateGui();
         }
     }
 
     private void saveToHistory() {
         IMemento currentState = model.createMemento();
-        history.add(currentState);
+        undoHistory.add(currentState);
+    }
+
+    private void saveToRedoHistory() {
+        IMemento currentState = model.createMemento();
+        redoHistory.add(currentState);
     }
 }
