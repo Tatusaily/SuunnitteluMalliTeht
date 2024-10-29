@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SuunnitteluMallit_Teht.iml" filepath="$PROJECT_DIR$/SuunnitteluMallit_Teht.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Suunnittelumallit.iml" filepath="$PROJECT_DIR$/Suunnittelumallit.iml" />
     </modules>
   </component>
 </project>

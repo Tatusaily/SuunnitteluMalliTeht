@@ -1,4 +1,4 @@
-package OrganizationStructure.src;
+package OrganizationStructure;
 
 import java.util.ArrayList;
 

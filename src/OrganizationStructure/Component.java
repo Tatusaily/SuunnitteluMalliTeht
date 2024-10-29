@@ -1,4 +1,4 @@
-package OrganizationStructure.src;
+package OrganizationStructure;
 
 public abstract class Component {
 
