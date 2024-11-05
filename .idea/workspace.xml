@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="player turn never ends">
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="redo functionality">
+      <change afterPath="$PROJECT_DIR$/src/Proxy/AccessControlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/AccessDeniedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/DocumentProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/IDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Memento/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memento/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Memento/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memento/Gui.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +49,9 @@
     &quot;accountId&quot;: &quot;455ed795-7bd6-491d-ad8e-716654315a59&quot;
   }
 }</component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -67,6 +74,7 @@
     "Application.Main.executor": "Run",
     "Application.Memento.Main.executor": "Run",
     "Application.Observer.Main.executor": "Run",
+    "Application.Proxy.Main.executor": "Run",
     "Application.Singleton.Main.executor": "Run",
     "Application.Template.Main.executor": "Run",
     "Notification.DisplayName-DoNotAsk-JDK resolve problems": "Failed to resolve JDK",
@@ -86,7 +94,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.41494253",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -105,7 +113,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Proxy.Main">
     <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Memento.Gui" />
       <module name="Suunnittelumallit" />
@@ -134,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.Main" />
+    <configuration name="Proxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Proxy.Main" />
       <module name="Suunnittelumallit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Observer.*" />
+          <option name="PATTERN" value="Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,19 +193,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Proxy.Main" />
       <item itemvalue="Application.Gui" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Observer.Main" />
       <item itemvalue="Application.Singleton.Main" />
       <item itemvalue="Application.Template.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Proxy.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Gui" />
         <item itemvalue="Application.Template.Main" />
         <item itemvalue="Application.Singleton.Main" />
-        <item itemvalue="Application.Observer.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +227,10 @@
       <workItem from="1724239310727" duration="2728000" />
       <workItem from="1724242400097" duration="1018000" />
       <workItem from="1724259088645" duration="46000" />
-      <workItem from="1730224869752" duration="2124000" />
+      <workItem from="1730224869752" duration="2211000" />
+      <workItem from="1730708974313" duration="1878000" />
+      <workItem from="1730807601342" duration="2491000" />
+      <workItem from="1730818202928" duration="3211000" />
     </task>
     <task id="LOCAL−00001" summary="initial and gitignore">
       <option name="closed" value="true" />
@@ -284,7 +295,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1727859504577</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="redo functionality">
+      <option name="closed" value="true" />
+      <created>1730227290175</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1730227290175</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +327,7 @@
     <MESSAGE value="finalized" />
     <MESSAGE value="42" />
     <MESSAGE value="player turn never ends" />
-    <option name="LAST_COMMIT_MESSAGE" value="player turn never ends" />
+    <MESSAGE value="redo functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="redo functionality" />
   </component>
 </project>
