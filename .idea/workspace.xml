@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="redo functionality">
-      <change afterPath="$PROJECT_DIR$/src/Proxy/AccessControlService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proxy/AccessDeniedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proxy/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proxy/DocumentProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proxy/IDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proxy/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proxy/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="proxy">
+      <change afterPath="$PROJECT_DIR$/src/Visitor/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/FileSystemElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/FileSystemVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/SearchVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/SizeCalculatorVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +111,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Proxy.Main">
+  <component name="RunManager" selected="Application.Visitor.Main">
     <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Memento.Gui" />
       <module name="Suunnittelumallit" />
@@ -155,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.Main" />
+    <configuration name="Template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Template.Main" />
       <module name="Suunnittelumallit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="Template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Template.Main" />
+    <configuration name="Visitor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Visitor.Main" />
       <module name="Suunnittelumallit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Template.*" />
+          <option name="PATTERN" value="Visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,18 +192,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Proxy.Main" />
+      <item itemvalue="Application.Visitor.Main" />
       <item itemvalue="Application.Gui" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Singleton.Main" />
       <item itemvalue="Application.Template.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Visitor.Main" />
         <item itemvalue="Application.Proxy.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Gui" />
         <item itemvalue="Application.Template.Main" />
-        <item itemvalue="Application.Singleton.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +228,7 @@
       <workItem from="1730224869752" duration="2211000" />
       <workItem from="1730708974313" duration="1878000" />
       <workItem from="1730807601342" duration="2491000" />
-      <workItem from="1730818202928" duration="3211000" />
+      <workItem from="1730818202928" duration="3752000" />
     </task>
     <task id="LOCAL−00001" summary="initial and gitignore">
       <option name="closed" value="true" />
@@ -302,7 +300,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1730227290175</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="proxy">
+      <option name="closed" value="true" />
+      <created>1730821434885</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1730821434885</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +333,7 @@
     <MESSAGE value="42" />
     <MESSAGE value="player turn never ends" />
     <MESSAGE value="redo functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="redo functionality" />
+    <MESSAGE value="proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
   </component>
 </project>
