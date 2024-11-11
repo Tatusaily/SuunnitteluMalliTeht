@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="refaktorointi">
-      <change afterPath="$PROJECT_DIR$/src/Builder/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/ComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/MotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/OfficeComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/SuperComputerBuilder.java" afterDir="false" />
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="melkene toimii">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +194,9 @@
       <workItem from="1724239310727" duration="2728000" />
       <workItem from="1724242400097" duration="1018000" />
       <workItem from="1724259088645" duration="46000" />
-      <workItem from="1731062969688" duration="1306000" />
+      <workItem from="1731062969688" duration="1408000" />
+      <workItem from="1731066866833" duration="111000" />
+      <workItem from="1731321156922" duration="382000" />
     </task>
     <task id="LOCAL−00001" summary="initial and gitignore">
       <option name="closed" value="true" />
@@ -263,7 +261,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1727859504577</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="melkene toimii">
+      <option name="closed" value="true" />
+      <created>1731064359758</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1731064359758</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +293,7 @@
     <MESSAGE value="finalized" />
     <MESSAGE value="42" />
     <MESSAGE value="player turn never ends" />
-    <option name="LAST_COMMIT_MESSAGE" value="player turn never ends" />
+    <MESSAGE value="melkene toimii" />
+    <option name="LAST_COMMIT_MESSAGE" value="melkene toimii" />
   </component>
 </project>

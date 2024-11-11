@@ -62,17 +62,17 @@ public class Computer {
         return sum;
     }
 
-    @Override
-    public String toString() {
-        return "Computer{" +
-                "processor='" + processor + '\'' +
-                ", ram=" + getRamSum() +
-                ", storage=" + getStorageSum() +
-                ", graphicsCard='" + graphicsCard + '\'' +
-                ", motherboard='" + motherboard + '\'' +
-                ", operatingSystem='" + operatingSystem + '\'' +
-                '}';
-    }
+@Override
+public String toString() {
+    return "Computer{\n" +
+            "processor='" + processor + '\'' + "\n" +
+            "ram=" + getRamSum() + " GB\n" +
+            "storage=" + getStorageSum() + " GB\n" +
+            "graphicsCard='" + graphicsCard + '\'' + "\n" +
+            "motherboard='" + motherboard.getName() + '\'' + "\n" +
+            "operatingSystem='" + operatingSystem + '\'' + "\n" +
+            '}';
+}
 
 
 
