@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="melkene toimii">
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CalendarToNewDateAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/NewDateInterface.java" afterDir="false" />
+    <list default="true" id="a8cf9f53-4d2c-4e4e-8fb6-72a35ee27f05" name="Changes" comment="kalenteri">
+      <change afterPath="$PROJECT_DIR$/src/Iterator/FibonacciIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/FibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/SequenceInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     "Application.Adapter.Main.executor": "Run",
     "Application.Game.executor": "Run",
     "Application.Gui.executor": "Run",
+    "Application.Iterator.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Memento.Main.executor": "Run",
     "Application.Observer.Main.executor": "Run",
@@ -98,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Adapter.Main">
+  <component name="RunManager" selected="Application.Iterator.Main">
     <configuration name="Adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adapter.Main" />
       <module name="Suunnittelumallit" />
@@ -118,6 +120,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iterator.Main" />
+      <module name="Suunnittelumallit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,41 +168,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Template.Main" />
-      <module name="SuunnitteluMallit_Teht" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Iterator.Main" />
       <item itemvalue="Application.Adapter.Main" />
       <item itemvalue="Application.Memento.Main" />
       <item itemvalue="Application.Gui" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Template.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Iterator.Main" />
         <item itemvalue="Application.Adapter.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Gui" />
         <item itemvalue="Application.Memento.Main" />
-        <item itemvalue="Application.Template.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -205,6 +206,8 @@
       <workItem from="1731062969688" duration="1408000" />
       <workItem from="1731066866833" duration="111000" />
       <workItem from="1731321156922" duration="382000" />
+      <workItem from="1731851409780" duration="7000" />
+      <workItem from="1733236326918" duration="2324000" />
     </task>
     <task id="LOCAL−00001" summary="initial and gitignore">
       <option name="closed" value="true" />
@@ -276,7 +279,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1731064359758</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="kalenteri">
+      <option name="closed" value="true" />
+      <created>1731414706224</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1731414706225</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +312,7 @@
     <MESSAGE value="42" />
     <MESSAGE value="player turn never ends" />
     <MESSAGE value="melkene toimii" />
-    <option name="LAST_COMMIT_MESSAGE" value="melkene toimii" />
+    <MESSAGE value="kalenteri" />
+    <option name="LAST_COMMIT_MESSAGE" value="kalenteri" />
   </component>
 </project>
